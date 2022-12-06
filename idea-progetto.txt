@@ -4,3 +4,8 @@ Topic: conspiracy theories, #QAnon o simili
 Intro e motivi progetto: acquisizione Musk e 'free-speech' [vedi link sotto]
 [https://www.scientificamerican.com/article/internet-and-extremism-experts-predict-more-hate-speech-and-conspiracy-theories-on-musks-twitter/]
 Dati: Twitter
+
+Progetti simili:
+- [https://github.com/FrancescoFustini/Analisi-sulle-elezioni-del-Presidente-della-Repubblica-italiana-nel-2022]
+- [https://github.com/GabrieleStrano/Social-Media-Analytics]
+- [https://github.com/albi9702/Ferrari-Community-Analysis]
