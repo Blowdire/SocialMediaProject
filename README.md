@@ -8,6 +8,8 @@ Given a topic (keyword and/or hashtag) or known users of your choice:
   - Social Content Analysis (e.g., sentiment analysis, emotion analysis, …)
 - Visualization
 
+---
+
 Define the objective of the analysis: we want to analyse the community revolving around the QAnon conspiracy theory.
 
 Domande di ricerca:
