@@ -9,3 +9,8 @@ Progetti simili:
 - [https://github.com/FrancescoFustini/Analisi-sulle-elezioni-del-Presidente-della-Repubblica-italiana-nel-2022]
 - [https://github.com/GabrieleStrano/Social-Media-Analytics]
 - [https://github.com/albi9702/Ferrari-Community-Analysis]
+
+Argomenti:
+- dibattito San Siro (prendi tweet vicino a giorni decisivi) o Olimpiadi26 ["#SanSiro", "Verdi", "Sala"]
+- Finale Mondiale
+- #BlackFriday / #SmallBusinessSaturday/ #CyberMonday (prendi tweet solo in quelle date)
