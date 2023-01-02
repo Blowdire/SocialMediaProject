@@ -1,0 +1,86 @@
+% Social Media Analytics
+% 2022/23
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% OPTIONAL PACKAGES
+\documentclass[12pt,journal,compsoc]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage[hyphens]{url}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{Smart Working\\\normalsize{Social Media Analytics - UniMib 2022/23}}
+\author{Agazzi Ruben, Cominetti Fabrizio}
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+...  
+\end{abstract}}
+
+\maketitle
+\IEEEpeerreviewmaketitle
+\IEEEdisplaynontitleabstractindextext
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+\IEEEPARstart{X}{xxx} Introduction and define the objective of the analysis. Justify the choice of the topic. (What do we want to do?) .
+
+\section{Data Collection}
+...
+
+\section{Analysis}
+\subsection{Social Network Analysis}
+...
+
+\subsection{Social Content Analysis}
+...
+
+\section{Visualization}
+...
+
+\section{Summary}
+...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+\bibliography{ref.bib}
+\bibliographystyle{IEEEtran}
+\newpage
+\onecolumn
+\appendices
+\section{CovNet Python Code for Learning MNIST}
+\label{App:Conv}
+\begin{lstlisting}
+
+# 
+#  Classifying MNIST with CNNs
+# 
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.optimizers import SGD, RMSprop
+from keras.utils import np_utils
+
+\end{lstlisting}
+
+\end{document}
