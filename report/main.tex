@@ -1,30 +1,37 @@
-% Social Media Analytics
-% 2022/23
+% Social Media Analytics 2022/23
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % OPTIONAL PACKAGES
 \documentclass[12pt,journal,compsoc]{IEEEtran}
-\usepackage{cite}
 \usepackage{amsfonts}
 \usepackage{caption}
-\usepackage{subcaption}
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage{listings}
 \usepackage[hyphens]{url}
+\usepackage{biblatex}
+\usepackage{blindtext,graphicx}
+\usepackage[absolute]{textpos}
+
+\addbibresource{ref.bib} %Import the bibliography file
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\title{Smart Working\\\normalsize{Social Media Analytics - UniMib 2022/23}}
-\author{Agazzi Ruben, Cominetti Fabrizio}
+
+\begin{textblock}{5}(1,0.5)
+\noindent\small Social Media Analytics - UniMib 2022/23
+\end{textblock}
+
+\title{Smart Working\\
+\vspace{2mm}\large{Social Network and Content Analysis}}
+\author{Agazzi Ruben 844736\\Cominetti Fabrizio 882737}
 
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-...  
+Negli ultimi anni il tema legato allo Smart working ha assunto una caratura di primo rilievo nelle discussioni in ambito lavorativo. Dalla necessità nel periodo di pandemia alle richieste di lavoratori che, una volta ristabilità la situazione post-pandemia, non hanno voluto rinunciare a tale possibilità, considerata un vantaggio nel proprio equilibrio vita privata-lavoro. Ma il tema è discusso anche per i vantaggi offerti alle aziende, soprattutto in termini di risparmio su strutture ed energie, oppure ancora le questioni legate al traffico urbano. Insomma, lo smart working non può più essere considerato un tema di secondo piano. Per questo motivo, abbiamo voluto analizzare il sentiment degli utenti relativo al tema, specialmente in merito agli ultimi interventi a livello governativo che hanno parzialmente ridotto la possibilità di usufruire dello smart working nell'ultimo periodo.
 \end{abstract}}
 
 \maketitle
@@ -36,7 +43,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
-\IEEEPARstart{X}{xxx} Introduction and define the objective of the analysis. Justify the choice of the topic. (What do we want to do?) .
+\IEEEPARstart{L}{o} smart working, anche conosciuto come lavoro agile, o remote work, indica - come spiega il MIUR \cite{MIUR} - una modalità di esecuzione del rapporto di lavoro subordinato caratterizzato dall'assenza di vincoli orari o spaziali e un'organizzazione per fasi, cicli e obiettivi, stabilita mediante accordo tra dipendente e datore di lavoro; una modalità che aiuta il lavoratore a conciliare i tempi di vita e lavoro e, al contempo, favorire la crescita della sua produttività.\\
+La pandemia degli anni recenti a costretto numerosi lavoratori a fronteggiare l'emergenza tramite lo smart working. Molti di loro però, anche una volta finita l'emergenza, hanno preferito continuare ad usufruire di tale modalità lavorativa, sottolineandone i numerosi benefici. è facile però trovare anche pareri opposti, tra chi sostiene l'importanza della comunicazione face-to-face e non vorrebbe cedere il passo.\\
+è anche vero che solo alcune tipologie di lavoratori possono svolgere con continuità una tipologia di lavoro agile, principalmente i lavoratori d'ufficio, mentre altri basano la propria attività sul contatto e l'esperienza umana.
+
+%Storia recente smart working
+Lo smart working è stato introdotto a livello legislativo in un periodo precedente alla già citata pandemia, precisamente nel corso del 2017.
+%Definire obiettivi analisi, giustificare la scelta del topic e cosa vogliamo fare/indagare
+
+
 
 \section{Data Collection}
 ...
@@ -54,33 +69,9 @@
 \section{Summary}
 ...
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifCLASSOPTIONcaptionsoff
-  \newpage
-\fi
-
-\bibliography{ref.bib}
-\bibliographystyle{IEEEtran}
-\newpage
-\onecolumn
-\appendices
-\section{CovNet Python Code for Learning MNIST}
-\label{App:Conv}
-\begin{lstlisting}
-
-# 
-#  Classifying MNIST with CNNs
-# 
-
-import matplotlib.pyplot as plt
-import numpy as np
-
-from keras.datasets import mnist
-from keras.models import Sequential
-from keras.optimizers import SGD, RMSprop
-from keras.utils import np_utils
-
-\end{lstlisting}
+\nocite{*}
+\printbibliography
 
 \end{document}
