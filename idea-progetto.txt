@@ -1,9 +1,4 @@
-SMA:
-
-Topic: conspiracy theories, #QAnon o simili
-Intro e motivi progetto: acquisizione Musk e 'free-speech' [vedi link sotto], recenti movimenti e situazioni legate al tema
-[https://www.scientificamerican.com/article/internet-and-extremism-experts-predict-more-hate-speech-and-conspiracy-theories-on-musks-twitter/]
-Dati: Twitter
+SMA
 
 Progetti simili:
 - [https://github.com/FrancescoFustini/Analisi-sulle-elezioni-del-Presidente-della-Repubblica-italiana-nel-2022]
@@ -11,6 +6,5 @@ Progetti simili:
 - [https://github.com/albi9702/Ferrari-Community-Analysis]
 
 Argomenti:
-- dibattito San Siro (prendi tweet vicino a giorni decisivi) o Olimpiadi26 ["#SanSiro", "Verdi", "Sala"]
-- Finale Mondiale
-- #BlackFriday / #SmallBusinessSaturday/ #CyberMonday (prendi tweet solo in quelle date)
+- Dibattito Smart Working e interventi governo
+- Aumento Dazn e reazione utenti
