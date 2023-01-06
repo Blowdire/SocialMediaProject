@@ -5,6 +5,5 @@ Progetti simili:
 - [https://github.com/GabrieleStrano/Social-Media-Analytics]
 - [https://github.com/albi9702/Ferrari-Community-Analysis]
 
-Argomenti:
+Argomento:
 - Dibattito Smart Working e interventi governo
-- Aumento Dazn e reazione utenti
