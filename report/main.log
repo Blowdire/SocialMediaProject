@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  6 JAN 2023 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  6 JAN 2023 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,7 +709,7 @@ LaTeX Font Info:    Trying to load font information for U+pzd on input line 38.
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 ) (main.toc
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 6.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -732,11 +732,13 @@ LaTeX Warning: Citation 'Rai' on page 1 undefined on input line 51.
 [1{C:/Users/FC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
-]
+] [2]
 
-LaTeX Warning: Empty bibliography on input line 80.
+LaTeX Warning: Empty bibliography on input line 102.
 
-[2] (main.aux)
+[3
+
+] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -752,7 +754,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  13999 strings out of 479718
  266984 string characters out of 2872485
- 979541 words of memory out of 3000000
+ 980545 words of memory out of 3000000
  32526 multiletter control sequences out of 15000+600000
  514203 words of font info for 125 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -765,9 +767,9 @@ sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/U
 sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/U
 sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/
 Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (2 pages, 90586 bytes).
+Output written on main.pdf (3 pages, 95391 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
