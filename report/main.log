@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  6 JAN 2023 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  8 JAN 2023 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,64 +594,61 @@ Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
 alian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
+) (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count426
+\float@exts=\toks23
+\float@box=\box58
+\@float@everytoks=\toks24
+\@floatcapt=\box59
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count426
-\@quotereset=\count427
+\@quotelevel=\count427
+\@quotereset=\count428
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 -- Lines per column: 49 (exact).
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count428
+\scratchcounter=\count429
 \scratchdimen=\dimen257
-\scratchbox=\box58
-\nofMPsegments=\count429
-\nofMParguments=\count430
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count431
+\scratchbox=\box60
+\nofMPsegments=\count430
+\nofMParguments=\count431
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count432
 \MPscratchDim=\dimen258
-\MPnumerator=\count432
-\makeMPintoPDFobject=\count433
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count433
+\makeMPintoPDFobject=\count434
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekey
-s.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
@@ -670,40 +667,40 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-LaTeX Info: Redefining \it@ocap on input line 23.
-LaTeX Info: Redefining \it@ccap on input line 23.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+LaTeX Info: Redefining \it@ocap on input line 24.
+LaTeX Info: Redefining \it@ccap on input line 24.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 23.
+italian.ldf    on input line 24.
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
-8.
+9.
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.03374> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 38
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 39
 .
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
 
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 38.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 39.
 
 
 (C:\Users\FC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
@@ -715,30 +712,47 @@ LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 5.
 \openout4 = `main.toc'.
 
 
-LaTeX Warning: Citation 'Gazzetta' on page 1 undefined on input line 47.
+LaTeX Warning: Citation 'Gazzetta' on page 1 undefined on input line 48.
 
 
-LaTeX Warning: Citation 'MIUR' on page 1 undefined on input line 47.
+LaTeX Warning: Citation 'MIUR' on page 1 undefined on input line 48.
 
 
-LaTeX Warning: Citation 'BSI' on page 1 undefined on input line 49.
+LaTeX Warning: Citation 'BSI' on page 1 undefined on input line 50.
 
 
-LaTeX Warning: Citation 'Forbes' on page 1 undefined on input line 50.
+LaTeX Warning: Citation 'Forbes' on page 1 undefined on input line 51.
 
 
-LaTeX Warning: Citation 'Rai' on page 1 undefined on input line 51.
+LaTeX Warning: Citation 'Rai' on page 1 undefined on input line 52.
 
 [1{C:/Users/FC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
-] [2]
+]
+<./images/tweetxday.png, id=12, 146.5475pt x 193.22188pt>
+File: ./images/tweetxday.png Graphic file (type png)
+<use ./images/tweetxday.png>
+Package pdftex.def Info: ./images/tweetxday.png  used on input line 70.
+(pdftex.def)             Requested size: 146.54712pt x 193.22139pt.
 
-LaTeX Warning: Empty bibliography on input line 102.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (179.55759pt too wide) in paragraph at lines 76--77
+[]\OML/cmm/m/it/12 date[];[] id[];[] text[];[] like[];[] n[]t[];[] author[];[] 
+location[];[] retweeted[];[] user[]entions[];[] hastags[]$\OT1/ppl/m/n/12.045 .
+ 
+ []
+
+[2]
+
+LaTeX Warning: Empty bibliography on input line 115.
 
 [3
 
-] (main.aux)
+ <./images/tweetxday.png>] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -752,24 +766,28 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13999 strings out of 479718
- 266984 string characters out of 2872485
- 980545 words of memory out of 3000000
- 32526 multiletter control sequences out of 15000+600000
+ 14009 strings out of 479718
+ 266413 string characters out of 2872485
+ 981067 words of memory out of 3000000
+ 32537 multiletter control sequences out of 15000+600000
  514203 words of font info for 125 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,68p,1131b,1318s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,7n,68p,1131b,1318s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
-ers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Us
-ers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Us
-ers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/U
-sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/U
-sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/U
-sers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/
-Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (3 pages, 95391 bytes).
+ers/FC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
+hvb8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
+hvr8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
+hvro8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplb8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplr8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplri8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding
+/uzdr.pfb>
+Output written on main.pdf (3 pages, 136840 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
