@@ -111,7 +111,34 @@ Per ogni documento presente nel corpus, sono state svolte le operazioni di pre-p
 
 \section{Analysis}
 \subsection{Social Network Analysis}
-...
+For the social network analysis we took the dataset of tweets we obtained from the twitter web api, and we kept only the columns relative to the tweet's author username and the list of users mentioned in the tweet. 
+\subsubsection{Graph building}
+We built our graph using the python library "NetworkX". Specifically we took every tweet in our dataset and for every tweet we took the tweet's author and users mentioned in the tweet, which becomes nodes of the graph, and then we make an edge between them. After this step we created inside our graph a total of 1820 nodes and 2568 edges between nodes.
+
+\subsubsection{Nodes degree}
+After building the graph we calculated the degree of every node inside the graph. The degree of a node of a graph is the number of edges that are incident to the node. After calculating the degree for every node we found out that the maximum degree found inside the graph is equal to 210 and the minimum degree found is equal to 1. 
+\begin{table}[ht]
+\centering
+\begin{tabular}{c c }
+	Node name & Degree  \\
+	\hline
+	BonomiAllegra & 210  \\
+	mrmcphisto & 145  \\
+	GiorgiaMeloni & 141  \\
+	AlbertoBagnai & 118  \\
+	ClaudioDurigon & 82  \\
+\end{tabular}
+\caption{First five nodes ordered by degree}
+\end{table}
+
+We also decided to calculate the average degree of the graph, which is equal to 2.82. Because the average degree is greater than we already assumed that there will be a giant component inside the graph. A giant component in graph theory is a connected component of a graph that contains a finite fraction of the entire graph's vertices.
+
+\subsubsection{Assortativity}
+Assortativity is a measure of how nodes inside a network connect to each other. If an interaction network is assortative nodes of comparable degree tent to link each other: bigger nodes(hubs) will tend to connect to hubs and smaller nodes will tend to connect to each other. If an interaction network is disassortative hubs wille tend to connect to small degree nodes, and small degree nodes will tend to connect to hubs. If the interaction network is neutral nodes will link to each other randomly.
+We can calculate an assortativity coefficient of a graph; if this coefficient is greater than 0 the network is assortative, if is equal to 0 is neutral and if is less than 0 it is disassortative.
+In out case the assortativity coefficient is equal to -0.244, which makes our network disassortative.
+
+\subsubsection{Community detection}
 
 \subsection{Social Content Analysis}
 Per quanto riguarda la \textit{Social Content Analysis}, è stato utilizzato FEEL-IT, un dataset e un pacchetto per effettuare la \textit{Sentiment Analysis} e l'\textit{Emotion Recognition} in lingua italiana.\\
