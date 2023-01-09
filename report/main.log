@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  8 JAN 2023 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  9 JAN 2023 16:44
 entering extended mode
 **f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex
 (f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex
@@ -650,12 +650,46 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12.045> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 115.
 [3 <./images/tweetxday.png> <./images/freq-authors.png>]
 LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 122.
+
+Underfull \hbox (badness 1721) in paragraph at lines 145--146
+[]$\OML/cmm/m/it/12 A[]$\OT1/ppl/m/n/12.045 : Is the ac-tual num-ber of ed-ges
+ []
+
+<./images/newplot.png, id=26, 549.05125pt x 451.6875pt>
+File: ./images/newplot.png Graphic file (type png)
+<use ./images/newplot.png>
+Package pdftex.def Info: ./images/newplot.png  used on input line 165.
+(pdftex.def)             Requested size: 274.52495pt x 225.84319pt.
+
+Overfull \hbox (21.57996pt too wide) in paragraph at lines 165--166
+[][] 
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 166--166
+[]\OT1/ppl/m/n/12.045 Figura 3: |Bar chart of the com-mu-ni-ties
+ []
+
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
  [4]
-Underfull \hbox (badness 1466) in paragraph at lines 169--169
+<./images/graph_visualization.png, id=35, 1266.23062pt x 674.52pt>
+File: ./images/graph_visualization.png Graphic file (type png)
+<use ./images/graph_visualization.png>
+Package pdftex.def Info: ./images/graph_visualization.png  used on input line 170.
+(pdftex.def)             Requested size: 253.24164pt x 134.90161pt.
+
+Underfull \hbox (badness 1466) in paragraph at lines 199--199
 \OT1/ppl/m/n/12.045 com / sites / zakdoman / 2020 / 03 /
  []
 
-[5
+
+Underfull \hbox (badness 2158) in paragraph at lines 199--199
+[]\OT1/ppl/m/it/12.045 Modularity (net-works)\OT1/ppl/m/n/12.045 . \OT1/ppl/m/sc/12.045 url\OT1/ppl/m/n/12.045 : $https : / /
+ []
+
+[5 <./images/newplot.png> <./images/graph_visualization.png>] [6
 
 ] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -663,17 +697,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13171 strings out of 479321
- 240234 string characters out of 2866501
- 966553 words of memory out of 3000000
- 30451 multiletter control sequences out of 15000+600000
+ 13187 strings out of 479321
+ 240732 string characters out of 2866501
+ 967647 words of memory out of 3000000
+ 30465 multiletter control sequences out of 15000+600000
  453771 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,10n,74p,1202b,1321s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (5 pages, 151732 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (6 pages, 1082662 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

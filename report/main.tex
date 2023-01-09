@@ -113,7 +113,7 @@ Per ogni documento presente nel corpus, sono state svolte le operazioni di pre-p
 \subsection{Social Network Analysis}
 For the social network analysis we took the dataset of tweets we obtained from the twitter web api, and we kept only the columns relative to the tweet's author username and the list of users mentioned in the tweet. 
 \subsubsection{Graph building}
-We built our graph using the python library "NetworkX". Specifically we took every tweet in our dataset and for every tweet we took the tweet's author and users mentioned in the tweet, which becomes nodes of the graph, and then we make an edge between them. After this step we created inside our graph a total of 1820 nodes and 2568 edges between nodes.
+We built our graph using the python library "NetworkX\cite{NetworkX}". Specifically we took every tweet in our dataset and for every tweet we took the tweet's author and users mentioned in the tweet, which becomes nodes of the graph, and then we make an edge between them. After this step we created inside our graph a total of 1820 nodes and 2568 edges between nodes.
 
 \subsubsection{Nodes degree}
 After building the graph we calculated the degree of every node inside the graph. The degree of a node of a graph is the number of edges that are incident to the node. After calculating the degree for every node we found out that the maximum degree found inside the graph is equal to 210 and the minimum degree found is equal to 1. 
@@ -130,8 +130,7 @@ After building the graph we calculated the degree of every node inside the graph
 \end{tabular}
 \caption{First five nodes ordered by degree}
 \end{table}
-
-We also decided to calculate the average degree of the graph, which is equal to 2.82. Because the average degree is greater than we already assumed that there will be a giant component inside the graph. A giant component in graph theory is a connected component of a graph that contains a finite fraction of the entire graph's vertices.
+We also decided to calculate the average degree of the graph, which is equal to 2.82. Because the average degree is greater than 1 we already assumed that there will be a giant component inside the graph. A giant component in graph theory is a connected component of a graph that contains a finite fraction of the entire graph's vertices.
 
 \subsubsection{Assortativity}
 Assortativity is a measure of how nodes inside a network connect to each other. If an interaction network is assortative nodes of comparable degree tent to link each other: bigger nodes(hubs) will tend to connect to hubs and smaller nodes will tend to connect to each other. If an interaction network is disassortative hubs wille tend to connect to small degree nodes, and small degree nodes will tend to connect to hubs. If the interaction network is neutral nodes will link to each other randomly.
@@ -139,7 +138,38 @@ We can calculate an assortativity coefficient of a graph; if this coefficient is
 In out case the assortativity coefficient is equal to -0.244, which makes our network disassortative.
 
 \subsubsection{Community detection}
+Communities are parts of the graph that are more densly connected, meaning they interact a lot with each other. In this case we used the python library "NetworkX\cite{NetworkX}" to find the community with modularity maximization. Local modularity is based on the hypothesis that random network does not have comunities. Local modularity\cite{Modularity} compares the number of links between the real network and the one expected on a random network. We can calculate the local modularity in the following way:
+\[M_c = \frac{1}{2L}\sum_{i \in C, j\in C }(A_{ij} - \frac{d_id_j}{2E})\] 
+Where:
+\begin{itemize}[]
+    \item $A_{ij}$: Is the actual number of edges between nodes i and j.
+    \item $\frac{d_id_j}{2E}$: is the expected number of edges in a random network for nodes i and j.
+\end{itemize}
+If the modularity is less than zero the network is randomly connected, and if the modularity for a community of nodes is less than zero then it is not considerable as a community.
+After running the modularity maximization algorithm we found 197 different communities, and the biggest community is formed by 234 nodes.
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c c }
+		Community number & Number of nodes  \\
+		\hline
+		Community 0& 234  \\
+		Community 1& 210  \\
+		Community 2& 179  \\
+		Community 3& 139  \\
+		Community 4& 87  \\
+	\end{tabular}
+	\caption{First 5 communities by node count}
+	\end{table}
+\subsubsection{Visualizations}
+\begin{figure}[H]
+	\includegraphics[scale=.5]{./images/newplot.png}
+	\caption{Bar chart of the communities numerosity.}
+\end{figure}
 
+\begin{figure}[H]
+	\includegraphics[scale=.20]{./images/graph_visualization.png}
+	\caption{Visualization of part of the graph with different colors representing different communitites.}
+\end{figure}
 \subsection{Social Content Analysis}
 Per quanto riguarda la \textit{Social Content Analysis}, è stato utilizzato FEEL-IT, un dataset e un pacchetto per effettuare la \textit{Sentiment Analysis} e l'\textit{Emotion Recognition} in lingua italiana.\\
 FEEL-IT è disponibile tramite un pacchetto Python \cite{FEEL-IT} e utilizza BERT, ...

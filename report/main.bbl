@@ -131,6 +131,30 @@
       \verb https://miur.gov.it/lavoro-agile
       \endverb
     \endentry
+    \entry{Modularity}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{Modularity (networks)}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Modularity_(networks)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Modularity_(networks)
+      \endverb
+    \endentry
+    \entry{NetworkX}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{title}{NetworkX}
+      \verb{urlraw}
+      \verb https://networkx.org/
+      \endverb
+      \verb{url}
+      \verb https://networkx.org/
+      \endverb
+    \endentry
     \entry{Rai}{online}{}
       \name{author}{1}{}{%
         {{hash=fc4c7e86f42dde88fd6f1dc7371a2dfc}{%
