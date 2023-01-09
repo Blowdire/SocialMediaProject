@@ -67,36 +67,41 @@ Siccome il tema è dibattuto e rigurda in particolare modo l'Italia, abbiamo sce
 L'API permette di scaricare tweet con alcune limitazioni relative al numero di giorni e alle richieste di download consecutive. Il periodo d'interesse va dal 26 dicembre 2022 al giorno 5 gennaio 2023. Il periodo considera dunque anche giorni iniziali in cui alcune voci in merito iniziavano ad emergere e un periodo successivo dopo l'annuncio ufficiale. Come possiamo osservare dalla seguente distribuzione, il giorno con il maggior numero di tweet pubblicati è il giorno 30/12/2022, penultimo giorno di lavoro agile concesso anche ai genitori di figli U14 e giorno in cui l'opzione - obbligatoria - di tornare in ufficio si avvicinava sempre più per moltissimi italiani.
 
 \begin{figure}[H]
+  \begin{center}
   \includegraphics[scale=1]{./images/tweetxday.png}
+  \end{center}
   \caption{Number of Tweets per Day}
 \end{figure}
 
-Il dataset iniziale, esportato e salvato in csv, si compone dunque di un totale di 10 variabili: $'date', 'id', 'text', 'like', 'n_rt', 'author', 'location', 'retweeted', 'user_mentions', 'hastags'$.
+Il dataset iniziale, esportato e salvato in csv, si compone dunque di un totale di 10 variabili: \{date, id, text, like, n\_rt, author, location, retweeted, user\_mentions, hastags\}.
 
 \begin{itemize}
-	\item \textit{date} : data e ora di pubblicazione del tweet
-	\item \textit{id} : identificatore unico del tweet
-	\item \textit{text} : testo contenuto nel tweet, estratto tramite l'opzione extended
-	\item \textit{like} : numero di like
-	\item \textit{n\_rt} : numero di retweet
-	\item \textit{author} : nome utente dell'autore del tweet
-	\item \textit{location} : localizzazione di pubblicazione del tweet, non sempre disponibile
-	\item \textit{retweeted} : valore booleano, 'true' se si tratta di un retweet, 'false' altrimenti
-	\item \textit{user\_mentions} : menzioni di altri utenti contenute nel tweet
-	\item \textit{hastags} : hashtags utilizzati nel tweet
+	\item \textit{date}: data e ora di pubblicazione del tweet
+	\item \textit{id}: identificatore unico del tweet
+	\item \textit{text}: testo contenuto nel tweet, estratto tramite l'opzione extended
+	\item \textit{like}: numero di like
+	\item \textit{n\_rt}: numero di retweet
+	\item \textit{author}: nome utente dell'autore del tweet
+	\item \textit{location}: localizzazione di pubblicazione del tweet, non sempre disponibile
+	\item \textit{retweeted}: valore booleano, 'true' se si tratta di un retweet, 'false' altrimenti
+	\item \textit{user\_mentions}: menzioni di altri utenti contenute nel tweet
+	\item \textit{hastags}: hashtags utilizzati nel tweet
 \end{itemize}
 
 \subsection{Data Pre-Processing}
 La prima operazione effettuata è stata di verificare l'eventuale presenza di duplicati, e l'eventuale rimozione degli stessi. Non sono presenti tweet duplicati, dunque il totale di tweet resta di 2667 elementi.\\
 Il formato della variabile 'date' è stato processato e sono state estratte le variabili 'day', 'month', e 'year' per visualizzare il numero di tweet effettuati per giorno, come visto nell'immagine di cui sopra.\\
-Dopodiché, abbiamo creato un dataframe all'interno di cui è stato svolto un conteggio di numero di tweet effettuati dallo stesso autore. Il risultato è visibile nell'immagine sottostante:
+Dopodiché, abbiamo creato un dataframe all'interno di cui è stato svolto un conteggio di numero di tweet effettuati dallo stesso autore. Il risultato è visibile nelle due immagini sottostanti:
 
 \begin{figure}[H]
+  \includegraphics[scale=0.4]{./images/tweetsxauthor.png}
+  \begin{center}
   \includegraphics[scale=1]{./images/freq-authors.png}
-  \caption{Number of Tweets per Author - Ordered}
+  \end{center}
+  \caption{Number of Tweets per Author}
 \end{figure}
 
-Da ogni tweet, abbiamo poi estratto la lista degli hashtags e delle menzioni contenute, inserite rispettivamente in due colonne del dataframe principale: $'hashtags_list', 'mentions'$.
+Da ogni tweet, abbiamo poi estratto la lista degli hashtags e delle menzioni contenute, inserite rispettivamente in due colonne del dataframe principale: \{hashtags\_list, mentions\}.
 
 Per ogni documento presente nel corpus, sono state svolte le operazioni di pre-processing necessarie per analizzare il testo. In particolare:
 
@@ -181,9 +186,6 @@ FEEL-IT è disponibile tramite un pacchetto Python \cite{FEEL-IT} e utilizza BER
 
 Per quanto rigurda la \textit{Sentiment Analysis}, il pacchetto divide i tweet in 'positive' e 'negative', valori che sono stati assegnati ad una nuova colonna, chiamata 'sentiment\_BERT'. Inoltre, a seconda del valore assegnato dal modello, sono state create altre tre variabili, 'positive', 'negative', con valore 1 in caso di valore corrispondente al sentiment (quindi 1 alla colonna 'positive' in caso di sentiment individuato positivo) e 0 altrimenti, e 'ratio', di valore 1 in caso di sentiment positivo e -1 in caso di sentiment negativo. Il dataset così composto è stato salvato in un file csv per ulteriori analisi.\\
 Il modello di \textit{Emotion Recognition} è in grado di individuare invece quattro emozioni: 'joy', 'fear', 'anger', 'sadness'. Il procedimento svolto è il medesimo per la sentiment analysis, e sono state dunque create quattro variabili, una per ogni emozione, con valore 1 in caso di tweet corrispondente alla stessa emozione, 0 altrimenti. Anche in questo caso, il dataset è stato esportato in file csv per ulteriori analisi.
-
-\section{Visualization}
-...
 
 \section{Summary}
 ...
