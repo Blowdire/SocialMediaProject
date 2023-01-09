@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  9 JAN 2023 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.30)  9 JAN 2023 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,11 +712,21 @@ LaTeX Font Info:    Trying to load font information for U+pzd on input line 39.
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 ) (main.toc
 LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 5.
+
+Underfull \hbox (badness 1859) in paragraph at lines 14--14
+ [][] []\OT1/ppl/m/n/12.045 Sentiment Ana- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ [][] []\OT1/ppl/m/n/12.045 Emotion 
+ []
+
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[1{C:/Users/FC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+ [1{C:/Users/FC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ] [2]
@@ -733,6 +743,20 @@ File: omsppl.fd
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12.045> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+
+Underfull \hbox (badness 2150) in paragraph at lines 79--80
+[]\OT1/ppl/m/it/12.045 date\OT1/ppl/m/n/12.045 : da-te and ti-me the tweet was
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 81--82
+[]\OT1/ppl/m/it/12.045 text\OT1/ppl/m/n/12.045 : text con-tai-ned in the tweet,
+
+ []
+
+
+Underfull \vbox (badness 4569) has occurred while \output is active []
+
 <./images/tweetsxauthor.png, id=17, 658.46pt x 227.85126pt>
 File: ./images/tweetsxauthor.png Graphic file (type png)
 <use ./images/tweetsxauthor.png>
@@ -743,76 +767,94 @@ Overfull \hbox (10.43434pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
-<./images/freq-authors.png, id=18, 163.10938pt x 86.3225pt>
-File: ./images/freq-authors.png Graphic file (type png)
-<use ./images/freq-authors.png>
-Package pdftex.def Info: ./images/freq-authors.png  used on input line 99.
-(pdftex.def)             Requested size: 163.10896pt x 86.32227pt.
-
-Underfull \hbox (badness 1789) in paragraph at lines 113--114
-[]\OT1/ppl/m/it/12.045 StopWords De-le-tion \OT1/ppl/m/n/12.045 : ri-mo-zio-ne 
-del-le
- []
-
-[3 <./images/tweetxday.png> <./images/tweetsxauthor.png> <./images/freq-authors
-.png>]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12.045> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 120.
-LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 127
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 103
 .
+[3 <./images/tweetxday.png> <./images/tweetsxauthor.png>]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12.045> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 132.
 
-Underfull \hbox (badness 1721) in paragraph at lines 150--151
+Underfull \hbox (badness 1721) in paragraph at lines 162--163
 []$\OML/cmm/m/it/12 A[]$\OT1/ppl/m/n/12.045 : Is the ac-tual num-ber of ed-ges
  []
 
-<./images/newplot.png, id=27, 549.05125pt x 451.6875pt>
+<./images/newplot.png, id=25, 549.05125pt x 451.6875pt>
 File: ./images/newplot.png Graphic file (type png)
 <use ./images/newplot.png>
-Package pdftex.def Info: ./images/newplot.png  used on input line 170.
+Package pdftex.def Info: ./images/newplot.png  used on input line 183.
 (pdftex.def)             Requested size: 274.52495pt x 225.84319pt.
 
-Overfull \hbox (21.57996pt too wide) in paragraph at lines 170--171
+Overfull \hbox (21.57996pt too wide) in paragraph at lines 183--184
 [][] 
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 171--171
+Underfull \hbox (badness 3989) in paragraph at lines 184--184
 []\OT1/ppl/m/n/12.045 Figura 3: |Bar chart of the com-mu-ni-ties
  []
 
-
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
- [4]
-<./images/graph_visualization.png, id=37, 1266.23062pt x 674.52pt>
+[4]
+<./images/graph_visualization.png, id=35, 1266.23062pt x 674.52pt>
 File: ./images/graph_visualization.png Graphic file (type png)
 <use ./images/graph_visualization.png>
 Package pdftex.def Info: ./images/graph_visualization.png  used on input line 1
-75.
+88.
 (pdftex.def)             Requested size: 253.24164pt x 134.90161pt.
+<./images/pie-sentiment.png, id=36, 274.02374pt x 284.56313pt>
+File: ./images/pie-sentiment.png Graphic file (type png)
+<use ./images/pie-sentiment.png>
+Package pdftex.def Info: ./images/pie-sentiment.png  used on input line 202.
+(pdftex.def)             Requested size: 191.8153pt x 199.19283pt.
+ [5 <./images/newplot.png> <./images/graph_visualization.png> <./images/pie-sen
+timent.png>]
+<./images/trend-sentiment.png, id=43, 509.40312pt x 284.56313pt>
+File: ./images/trend-sentiment.png Graphic file (type png)
+<use ./images/trend-sentiment.png>
+Package pdftex.def Info: ./images/trend-sentiment.png  used on input line 210.
+(pdftex.def)             Requested size: 254.70093pt x 142.2812pt.
 
-Underfull \hbox (badness 1466) in paragraph at lines 201--201
+Overfull \hbox (1.75594pt too wide) in paragraph at lines 210--211
+[][] 
+ []
+
+<./images/trend-emotion.png, id=44, 504.88625pt x 284.56313pt>
+File: ./images/trend-emotion.png Graphic file (type png)
+<use ./images/trend-emotion.png>
+Package pdftex.def Info: ./images/trend-emotion.png  used on input line 219.
+(pdftex.def)             Requested size: 252.44249pt x 142.2812pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 233--233
 \OT1/ppl/m/n/12.045 com / sites / zakdoman / 2020 / 03 /
  []
 
-[5 <./images/newplot.png> <./images/graph_visualization.png>]
-Underfull \hbox (badness 2158) in paragraph at lines 201--201
+
+Underfull \hbox (badness 2158) in paragraph at lines 233--233
 []\OT1/ppl/m/it/12.045 Modularity (net-works)\OT1/ppl/m/n/12.045 . \OT1/ppl/m/s
 c/12.045 url\OT1/ppl/m/n/12.045 : $https : / /
  []
 
-[6
+[6 <./images/trend-sentiment.png> <./images/trend-emotion.png>] [7
 
 ] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14148 strings out of 479718
- 269807 string characters out of 2872485
- 983389 words of memory out of 3000000
- 32659 multiletter control sequences out of 15000+600000
+ 14157 strings out of 479718
+ 270195 string characters out of 2872485
+ 981389 words of memory out of 3000000
+ 32666 multiletter control sequences out of 15000+600000
  519600 words of font info for 140 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,68p,1131b,1331s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -833,9 +875,9 @@ fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/FC/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (6 pages, 1116450 bytes).
+Output written on main.pdf (7 pages, 1217244 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
