@@ -210,7 +210,6 @@ Considering the sentiment on the various days, it can be seen that it is highly 
   \includegraphics[scale=0.5]{./images/trend-sentiment.png}
   \caption{Sentiment - Daily Trend}
 \end{figure}
-
 \subsubsection{Emotion Recognition}
 Recognizing emotions in text is fundamental to get a better sense of how people are talking about something. People can talk about a new event, but positive/negative labels might not be enough. There is a big difference between being angered by something and scared by something. This difference is why it is vital to consider sentiment and emotion in text.\\
 The model of \textit{Emotion Recognition} is able to identify four emotions: 'joy', 'fear', 'anger', 'sadness'. The procedure carried out is the same for sentiment analysis, and thus four variables were created, one for each emotion, with value 1 in case of tweets corresponding to the same emotion, 0 otherwise. Again, the dataset was exported to a csv file for further analysis.
@@ -225,6 +224,7 @@ As we can observe from the historical series above, the emotion 'fear' has a pea
 \section{Summary}
 The project carried out allowed us to investigate the research questions we had set, both regarding the network analysis part and the content analysis part.\\
 We undurstood that even with a relatively small number of nodes (1820) with the right topic is very easy to form communities inside a social network.\\
+We also understood from the sentiment analysis that the 'anger' emotion is the most prevalent regarding this subject.
 Future developments of the project could consider a wider range of days, or use (design) a sentiment classification model that considers a neutral value of some texts. We could also consider analyzing different community detection algorithms in order to see how differently they identify the various communities.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

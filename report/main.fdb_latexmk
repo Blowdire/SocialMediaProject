@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1673304663 "main.bcf" "main.bbl" "main" 1673342804
-  "main.bcf" 1673342804 107341 abcc2819be2d5b55644f16df1a739b25 "pdflatex"
+["biber main"] 1673304663 "main.bcf" "main.bbl" "main" 1673358830
+  "main.bcf" 1673358830 107341 abcc2819be2d5b55644f16df1a739b25 "pdflatex"
   "ref.bib" 1673278981 1837 408004dba276446de61ceffa96757ee6 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1673342801 "f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex" "main.pdf" "main" 1673342804
+["pdflatex"] 1673358825 "f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex" "main.pdf" "main" 1673358830
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768654 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768654 4484 b828043cbd581d289d955903c1339981 ""
@@ -155,7 +155,7 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/textpos/textpos.sty" 1658741847 12842 35403bda336a71a37a5edc37b78e3ec3 ""
-  "f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex" 1673342800 18886 3893c7f9810fdb8bb4202eb9552916cc ""
+  "f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex" 1673358824 19003 86eb794b920fa060460eb5a0eaabd6c5 ""
   "images/graph_visualization.png" 1673277655 1197281 473634d0f58a79346914a8c3a77c2f4c ""
   "images/newplot.png" 1673277462 19115 c6743ee4b34ea1ec75ee2b18a462e60f ""
   "images/pie-sentiment.png" 1673303714 24063 198e74dd3ccc2391248fc3aeae5fc539 ""
@@ -163,17 +163,17 @@
   "images/trend-sentiment.png" 1673303714 47306 fab8d51431f7ae7b5b491e166ca1147c ""
   "images/tweetsxauthor.png" 1673282276 40985 b7a96475ee228c923d207c79afe3423a ""
   "images/tweetxday.png" 1673187033 18306 8fdb92d982e5bbbbcd4d98e2304d18ed ""
-  "main.aux" 1673342804 6993 60630d30f510fa5379aab73c8de7d51a "pdflatex"
+  "main.aux" 1673358830 6993 60630d30f510fa5379aab73c8de7d51a "pdflatex"
   "main.bbl" 1673304665 9825 c8052491d36c4388a30c6053e267ffa2 "biber main"
-  "main.out" 1673342804 1930 f59eed1039ed9dc426876608bd7c4e7e "pdflatex"
-  "main.run.xml" 1673342804 2298 86121f1ba96bc591b850b38d113ba22f "pdflatex"
-  "main.tex" 1673342800 18886 3893c7f9810fdb8bb4202eb9552916cc ""
-  "main.toc" 1673342804 1810 dac65954ad7059e10032e7163c53c860 "pdflatex"
+  "main.out" 1673358830 1930 f59eed1039ed9dc426876608bd7c4e7e "pdflatex"
+  "main.run.xml" 1673358830 2298 86121f1ba96bc591b850b38d113ba22f "pdflatex"
+  "main.tex" 1673358824 19003 86eb794b920fa060460eb5a0eaabd6c5 ""
+  "main.toc" 1673358830 1810 dac65954ad7059e10032e7163c53c860 "pdflatex"
   (generated)
   "main.toc"
+  "main.run.xml"
   "main.pdf"
+  "main.bcf"
   "main.log"
   "main.aux"
   "main.out"
-  "main.run.xml"
-  "main.bcf"
