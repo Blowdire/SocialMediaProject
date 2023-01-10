@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  9 JAN 2023 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  10 JAN 2023 10:26
 entering extended mode
 **f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex
 (f:/universita/DataScience/SocialMedia/progetto/SocialMediaProject/report/main.tex
@@ -832,16 +832,16 @@ Package pdftex.def Info: ./images/trend-emotion.png  used on input line 219.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 233--233
+Underfull \hbox (badness 1466) in paragraph at lines 234--234
 \OT1/ppl/m/n/12.045 com / sites / zakdoman / 2020 / 03 /
  []
 
-
-Underfull \hbox (badness 2158) in paragraph at lines 233--233
+[6 <./images/trend-sentiment.png> <./images/trend-emotion.png>]
+Underfull \hbox (badness 2158) in paragraph at lines 234--234
 []\OT1/ppl/m/it/12.045 Modularity (net-works)\OT1/ppl/m/n/12.045 . \OT1/ppl/m/sc/12.045 url\OT1/ppl/m/n/12.045 : []$https : / /
  []
 
-[6 <./images/trend-sentiment.png> <./images/trend-emotion.png>] [7
+[7
 
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -859,7 +859,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  73i,10n,74p,1222b,1341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (7 pages, 1227960 bytes).
+Output written on main.pdf (7 pages, 1228200 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
